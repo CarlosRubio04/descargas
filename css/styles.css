@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/*Estilos del cargador al iniciarl la pagina*/
+.loader {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(255,255,255,0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader>img {
+  max-width: 50px;
+}
+/*Estilos del cargador al iniciarl la pagina*/
+
+/*Carga de las imagenes*/
+.lazyImg {
+  -webkit-transition: transform .3s ease-in-out;
+  -moz-transition: transform .3s ease-in-out;
+  -o-transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  max-width: 100%;
+  transform: scale(1.2);
+}
+.lazyImg.b-loaded {
+ transform: scale(1);
+}
+/*Carga de las imagenes*/

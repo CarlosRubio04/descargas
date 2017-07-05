@@ -12,41 +12,40 @@ var bLazy = new Blazy({
 });
 
 // Gestos en Movil
-// var consulta = window.matchMedia('(max-width: 768px)');
-// consulta.addListener(mediaQuery);
+ var consulta = window.matchMedia('(max-width: 768px)');
+ consulta.addListener(mediaQuery);
 
-// var $burguerButton = document.getElementById('burguer-button');
-// var $menu = document.getElementById('menu');
-// function toggleMenu(){
-//   $menu.classList.toggle('active')
-//   $burguerButton.classList.toggle('icon-close'); 
-// };
-// function showMenu(){
+ var $burguerButton = document.getElementById('burguer-button');
+ var $menu = document.getElementById('menu');
+ function toggleMenu(){
+   $menu.classList.toggle('active')
+   $burguerButton.classList.toggle('icon-close'); 
+ };
+ function showMenu(){
 //   $menu.classList.add('active');
-// };
-// function hideMenu(){
-//   $menu.classList.remove('active');
-// };
+ };
+ function hideMenu(){
+   $menu.classList.remove('active');
+ };
 
-// function mediaQuery() {
-//   if (consulta.matches) {
-//           // si se cumple hagamos esto
-//           console.log('se cumplió la condicion');
-//           $burguerButton.addEventListener('touchstart', toggleMenu);
-//         } else {
-//           $burguerButton.removeEventListener('touchstart', toggleMenu);
-//           // si no se cumple hagamos esto
-//           console.log('no se cumplió la condicion');
-//         }
-//       }
-// mediaQuery();
-// // Gestos touch
-// var $body = document.body;
+ function mediaQuery() {
+   if (consulta.matches) {
+           // si se cumple hagamos esto
+           console.log('se cumplió la condicion');
+           $burguerButton.addEventListener('touchstart', toggleMenu);
+         } else {
+          $burguerButton.removeEventListener('touchstart', toggleMenu);
+           // si no se cumple hagamos esto
+          console.log('no se cumplió la condicion');
+         }
+       }
+mediaQuery();
+// Gestos touch
+var $body = document.body;
 
-// var gestos = new Hammer($body);
-// gestos.on('swipeleft', hideMenu);
-// gestos.on('swiperight', showMenu);
-// Gestos en Movil
+var gestos = new Hammer($body);
+gestos.on('swipeleft', hideMenu);
+gestos.on('swiperight', showMenu);
 
 // Bx Slider
 $(document).ready(function(){

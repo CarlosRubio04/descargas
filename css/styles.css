@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  background: #f7f7f7;
 }
 /*Estilos del cargador al iniciarl la pagina*/
 .loader {
@@ -30,3 +31,8 @@
  transform: scale(1);
 }
 /*Carga de las imagenes*/
+
+/*Estilos default*/
+ul {
+  list-style: none;
+}

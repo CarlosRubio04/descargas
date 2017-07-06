@@ -9,13 +9,11 @@
     <img src="img/loader.svg" alt="Loading...">
   </div>
   <?php require_once('blocks/header.php'); ?>
+  <?php require_once('blocks/menu.php'); ?>
   <section class="mainWrapper">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
-            <?php require_once('blocks/menu.php'); ?>
-        </div>
-        <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
+        <div class="col-md-offset-2 col-lg-offset-2 col-md-8 col-lg-8 col-sm-12 col-xs-12 bd-color">
             <?php if(!isset($_REQUEST['content'])){
               require_once('blocks/home.php');
             }elseif($_REQUEST['content']=='gracias'){
@@ -25,7 +23,7 @@
             } 
             ?>
         </div>
-        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
+        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12 bd-color">
             <?php require_once('blocks/sidebar.php'); ?>
         </div>
       </div>

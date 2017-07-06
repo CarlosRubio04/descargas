@@ -11,6 +11,7 @@
       <link href="css/font-awesome.min.css" rel="stylesheet">
       <link rel="stylesheet" href="css/font-awesome.min.css" rel="stylesheet">
       <link href="css/jquery.bxslider.min.css" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Orbitron:400,500,700,900" rel="stylesheet">
       <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
       <!--[if lt IE 9]>

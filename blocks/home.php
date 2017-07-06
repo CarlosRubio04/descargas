@@ -5,7 +5,7 @@
 	<div class="row-wrapper flex">
 		<div class="game-item">
 			<img src="http://placehold.it/170x130" alt="Game" class="thumbs">
-			<h4>Monster Truck</h4>
+			<a href="?content=" class="module-item-link">Monster Truck</a>
 			<p>Descripción del video juego o posibles hashtags</p>
 			<div class="rate">
 				<i class="fa fa-star" aria-hidden="true"></i>
@@ -19,7 +19,7 @@
 
 		<div class="game-item">
 			<img src="http://placehold.it/170x130" alt="Game" class="thumbs">
-			<h4>Monster Truck</h4>
+			<a href="?content=" class="module-item-link">Monster Truck</a>
 			<p>Descripción del video juego o posibles hashtags</p>
 			<div class="rate">
 				<i class="fa fa-star" aria-hidden="true"></i>
@@ -33,7 +33,7 @@
 
 		<div class="game-item">
 			<img src="http://placehold.it/170x130" alt="Game" class="thumbs">
-			<h4>Monster Truck</h4>
+			<a href="?content=" class="module-item-link">Monster Truck</a>
 			<p>Descripción del video juego o posibles hashtags</p>
 			<div class="rate">
 				<i class="fa fa-star" aria-hidden="true"></i>
@@ -47,7 +47,7 @@
 
 		<div class="game-item">
 			<img src="http://placehold.it/170x130" alt="Game" class="thumbs">
-			<h4>Monster Truck</h4>
+			<a href="?content=" class="module-item-link">Monster Truck</a>
 			<p>Descripción del video juego o posibles hashtags</p>
 			<div class="rate">
 				<i class="fa fa-star" aria-hidden="true"></i>
@@ -58,110 +58,17 @@
 				<span>5.0</span>
 			</div>
 		</div>
+	</div>
 
-
-		<div class="game-item">
-			<img src="http://placehold.it/170x180" alt="Game" class="thumbs">
-			<h4>Monster Truck</h4>
-			<p>Descripción del video juego o posibles hashtags</p>
-			<div class="rate">
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<span>5.0</span>
-			</div>
-		</div>
-
-		<div class="game-item">
-			<img src="http://placehold.it/170x190" alt="Game" class="thumbs">
-			<h4>Monster Truck</h4>
-			<p>Descripción del video juego o posibles hashtags</p>
-			<div class="rate">
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<span>5.0</span>
-			</div>
-		</div>
-
+	<hr>
+	
+	<div class="row-wrapper">
+		<h2><i class="fa fa-clock-o" aria-hidden="true"></i> Agregados reciente</h2>
+	</div>
+	<div class="row-wrapper flex">
 		<div class="game-item">
 			<img src="http://placehold.it/170x130" alt="Game" class="thumbs">
-			<h4>Monster Truck</h4>
-			<p>Descripción del video juego o posibles hashtags</p>
-			<div class="rate">
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<span>5.0</span>
-			</div>
-		</div>
-
-		<div class="game-item">
-			<img src="http://placehold.it/170x130" alt="Game" class="thumbs">
-			<h4>Monster Truck</h4>
-			<p>Descripción del video juego o posibles hashtags</p>
-			<div class="rate">
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<span>5.0</span>
-			</div>
-		</div>
-
-		<div class="game-item">
-			<img src="http://placehold.it/170x130" alt="Game" class="thumbs">
-			<h4>Monster Truck</h4>
-			<p>Descripción del video juego o posibles hashtags</p>
-			<div class="rate">
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<span>5.0</span>
-			</div>
-		</div>
-
-		<div class="game-item">
-			<img src="http://placehold.it/170x130" alt="Game" class="thumbs">
-			<h4>Monster Truck</h4>
-			<p>Descripción del video juego o posibles hashtags</p>
-			<div class="rate">
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<span>5.0</span>
-			</div>
-		</div>
-
-
-		<div class="game-item">
-			<img src="http://placehold.it/170x180" alt="Game" class="thumbs">
-			<h4>Monster Truck</h4>
-			<p>Descripción del video juego o posibles hashtags</p>
-			<div class="rate">
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<i class="fa fa-star" aria-hidden="true"></i>
-				<span>5.0</span>
-			</div>
-		</div>
-
-		<div class="game-item">
-			<img src="http://placehold.it/170x190" alt="Game" class="thumbs">
-			<h4>Monster Truck</h4>
+			<a href="?content=" class="module-item-link">Monster Truck</a>
 			<p>Descripción del video juego o posibles hashtags</p>
 			<div class="rate">
 				<i class="fa fa-star" aria-hidden="true"></i>

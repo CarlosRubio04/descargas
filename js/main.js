@@ -12,7 +12,7 @@ var bLazy = new Blazy({
 });
 
 // Gestos en Movil
- var consulta = window.matchMedia('(max-width: 768px)');
+ var consulta = window.matchMedia('(max-width: 990px)');
  consulta.addListener(mediaQuery);
 
  var $burguerButton = document.getElementById('burguer-button');
@@ -22,7 +22,7 @@ var bLazy = new Blazy({
    $burguerButton.classList.toggle('icon-close'); 
  };
  function showMenu(){
-//   $menu.classList.add('active');
+  $menu.classList.add('active');
  };
  function hideMenu(){
    $menu.classList.remove('active');

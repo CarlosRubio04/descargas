@@ -13,7 +13,7 @@
   <section class="mainWrapper">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-offset-2 col-lg-offset-2 col-md-8 col-lg-8 col-sm-12 col-xs-12 bd-color">
+        <div class="col-md-offset-2 col-lg-offset-2 col-md-8 col-lg-8 col-sm-12 col-xs-12">
             <?php if(!isset($_REQUEST['content'])){
               require_once('blocks/home.php');
             }elseif($_REQUEST['content']=='gracias'){
@@ -23,7 +23,7 @@
             } 
             ?>
         </div>
-        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12 bd-color">
+        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12 visible-lg visible-md">
             <?php require_once('blocks/sidebar.php'); ?>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<nav class="nav" id="menu">
+<nav class="nav-menu" id="menu">
 	<h3>Juegos</h3>
 	<ul>
 		<li><a href="?content=arcade">Arcade</a></li>

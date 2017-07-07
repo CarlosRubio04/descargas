@@ -18,14 +18,13 @@ var bLazy = new Blazy({
  var $burguerButton = document.getElementById('burguer-button');
  var $menu = document.getElementById('menu');
  function toggleMenu(){
-   $menu.classList.toggle('active')
-   $burguerButton.classList.toggle('icon-close'); 
+   $menu.classList.toggle('active-menu');
  };
  function showMenu(){
-  $menu.classList.add('active');
+  $menu.classList.add('active-menu');
  };
  function hideMenu(){
-   $menu.classList.remove('active');
+   $menu.classList.remove('active-menu');
  };
 
  function mediaQuery() {

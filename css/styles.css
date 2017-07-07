@@ -81,6 +81,9 @@ header {
   color: #fff;
   margin: 0;
 }
+.logo a {
+  color: #fff;
+}
 .logo i {
   color: #f5a623;
 }
@@ -152,11 +155,32 @@ header {
   font-weight: 400;
   font-size: 1.1em;
 }
+.nav-menu ul li {
+  line-height: 2;
+}
+.nav-menu ul li a::after {
+  content: "";
+  display: block;
+  width: 20%;
+  border-top: 1px solid #f6a623;
+  transform: scale(0);
+  -webkit-transition: transform .3s ease-in-out;
+  -moz-transition: transform .3s ease-in-out;
+  -o-transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+}
+.nav-menu ul li a:hover{
+  color: #fff;
+}
+.nav-menu ul li a:hover::after {
+  transform: scale(1);
+}
 /*Estilos Estructura General*/
 .wrapper {
   display: block;
   position: relative;
   margin: 7em 0;
+  min-height: 72vh;
 }
 .row-wrapper {
   max-width: 100%;
@@ -228,6 +252,7 @@ header {
   align-items: center;
   border-bottom: 1px solid #e4e4e4;
   padding: 5px 0;
+  margin: 0 2px;
 }
 .module-item-link {
   font-size: 13px;
@@ -235,6 +260,21 @@ header {
   font-weight: 500;
   margin: 10px 0;
   display: block;
+  cursor: pointer;
+}
+.module-item-link::after {
+  content: "";
+  display: block;
+  width: 50%;
+  border-top: 1px solid #4a4a4a;
+  transform: scale(0);
+  -webkit-transition: transform .3s ease-in-out;
+  -moz-transition: transform .3s ease-in-out;
+  -o-transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+}
+.module-item-link:hover::after {
+  transform: scale(1);
 }
 .thumb-module-item {
   width: 70px;
@@ -249,11 +289,30 @@ header {
 }
 .modal-body {
   padding: 0px;
-  
 }
 .modal-header {
   background-color: #212143;
   border-bottom: 0;
+}
+.modal-footer {
+  background-color: #212143;
+  border-top: 0;
+}
+.modal-footer {
+   display: flex;
+   justify-content: center;
+}
+.modal-footer button {
+  background-color: transparent;
+  border: 0;
+  margin: 0 10px;
+  outline: 0;
+}
+.modal-footer button i {
+  color: #fff;
+}
+.modal-footer button:hover i {
+  color: #f5a623;
 }
 .modal-header h4 {
   text-align: center;
@@ -273,6 +332,69 @@ header {
 }
 .tab-pane {
   padding: 20px;
+}
+.nav-tabs {
+  background-color: #e1dede;
+}
+.nav-tabs>li>a {
+  color: #9b9b9b;
+  font-size: 20px;
+  font-weight: 500;
+}
+.nav-tabs>li.active>a {
+  color: #f6a623;
+  cursor: default;
+  background-color: transparent;
+  border: 1px solid #ddd;
+  border-bottom: 1px solid #f5a623 !important;
+}
+/*FORMULARIO DE SUSCRIPCION*/
+.form-control {
+  border: 1px solid #212143;
+  color: #4a4a4a;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #4a4a4a !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #4a4a4a !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #4a4a4a !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #4a4a4a !important;
+}
+.btn-form {
+  background-color: #f5a623;
+  color: #212143;
+  width: 180px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  font-weight: 500;
+  -webkit-box-shadow: 0px 4px 14px -4px rgba(0,0,0,0.67);
+  -moz-box-shadow: 0px 4px 14px -4px rgba(0,0,0,0.67);
+  box-shadow: 0px 4px 14px -4px rgba(0,0,0,0.67);
+}
+.btn-form i {
+  color: #212143;
+}
+.btn-form:hover {
+  background-color: #212143;
+  color: #f5a623;
+}
+.btn-form:hover i{
+  color: #f5a623;
+}
+
+/*Games interna*/
+.tittle-game  {
+  display: flex;
+  align-items: baseline;
+}
+.tittle-game h2 {
+  margin-right: 10px;
 }
 @media (min-width: 1200px){
   .visible-lg {
@@ -324,5 +446,10 @@ header {
   .active-menu {
     left: 0;
     width: 100vw;
+  }
+  .sub-header {
+    width: 100%;
+    height: 100px;
+    background-image: url(../img/modal-header.jpg);
   }
 }

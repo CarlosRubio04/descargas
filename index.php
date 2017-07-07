@@ -9,6 +9,7 @@
     <img src="img/loader.svg" alt="Loading...">
   </div>
   <?php require_once('blocks/header.php'); ?>
+  <?php require_once('blocks/modal-view.php'); ?>
   <?php require_once('blocks/menu.php'); ?>
   <section class="mainWrapper">
     <div class="container-fluid">
@@ -16,8 +17,32 @@
         <div class="col-md-offset-2 col-lg-offset-2 col-md-8 col-lg-8 col-sm-12 col-xs-12">
             <?php if(!isset($_REQUEST['content'])){
               require_once('blocks/home.php');
-            }elseif($_REQUEST['content']=='gracias'){
-              require_once('blocks/gracias.php');
+            }elseif($_REQUEST['content']=='arcade'){
+              require_once('blocks/arcade.php');
+            }elseif($_REQUEST['content']=='aventura'){
+              require_once('blocks/aventura.php');
+            }elseif($_REQUEST['content']=='accion'){
+              require_once('blocks/accion.php');
+            }elseif($_REQUEST['content']=='jugadas'){
+              require_once('blocks/jugadas.php');
+            }elseif($_REQUEST['content']=='bromas'){
+              require_once('blocks/bromas.php');
+            }elseif($_REQUEST['content']=='deportes-extemos'){
+              require_once('blocks/deportes-extemos.php');
+            }elseif($_REQUEST['content']=='animales-divertidos'){
+              require_once('blocks/animales-divertidos.php');
+            }elseif($_REQUEST['content']=='artistas'){
+              require_once('blocks/artistas.php');
+            }elseif($_REQUEST['content']=='mascotas'){
+              require_once('blocks/mascotas.php');
+            }elseif($_REQUEST['content']=='memes'){
+              require_once('blocks/memes.php');
+            }elseif($_REQUEST['content']=='paisajes'){
+              require_once('blocks/paisajes.php');
+            }elseif($_REQUEST['content']=='games-view'){
+              require_once('blocks/games-view.php');
+            }elseif($_REQUEST['content']=='404'){
+              require_once('blocks/404.php');
             }else{
               require_once('blocks/404.php');
             } 

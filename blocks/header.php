@@ -7,7 +7,7 @@
 				</button>
 			</div>
 			<div class="col-md-offset-4 col-md-4 col-sm-9 col-xs-9 text-center">
-				<h1 class="logo"><i class="fa fa-cloud-download " aria-hidden="true"></i> FullDescargas</h1>
+				<h1 class="logo"><a href="index.php"><i class="fa fa-cloud-download " aria-hidden="true"></i> FullDescargas</a></h1>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-1 col-xs-1 text-center">
 				<button type="button" class="btn btn-log visible-lg visible-md" data-toggle="modal" data-target="#log">Entrar</button>
@@ -60,7 +60,7 @@
 									</label>
 								</div>
 								<div class="form-group">
-									<button type="button" class="btn">Entrar</button>
+									<button type="button" class="btn btn-form">Entrar</button>
 								</div>
 							</form>
 						</div>
@@ -82,7 +82,7 @@
 									</label>
 								</div>
 								<div class="form-group">
-									<button type="button" class="btn">Registrarse</button>
+									<button type="button" class="btn btn-form">Registrarse</button>
 								</div>
 							</form>
 						</div>

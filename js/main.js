@@ -46,6 +46,34 @@ var gestos = new Hammer($body);
 gestos.on('swipeleft', hideMenu);
 gestos.on('swiperight', showMenu);
 
+//  MODAL
+
+$('#viewModal').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget) // Button that triggered the modal
+  var recipient = button.data('src') // Extract info from data-* attributes
+  var modal = $(this)
+  modal.find('.modal-body img').attr('src', recipient)
+})
+$('#viewModalVideo').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget) // Button that triggered the modal
+  var recipient = button.data('src') // Extract info from data-* attributes
+  var modal = $(this)
+  modal.find('.modal-body video').attr('src', recipient)
+})
+
+
+// Video
+var video = document.getElementById("myVideo");
+function play(){
+  video.play();
+}
+function stop(){
+  video.pause();
+}
+function fullScreen(){
+  video.webkitEnterFullScreen();
+}
+
 // Bx Slider
 $(document).ready(function(){
   descargar();

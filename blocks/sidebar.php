@@ -1,6 +1,6 @@
 <div class="side-wrapper wrapper">
 	<div class="banner">
-		<img src="http://placehold.it/480x320" alt="Publicidad" class="side-banner">
+		<img src="http://placehold.it/480x320" data-src="http://placehold.it/480x320" alt="Publicidad" class="side-banner lazyImg">
 	</div>
 	<div class="module-container">
 		<div class="module-title">
@@ -8,7 +8,7 @@
 		</div>
 		<div class="module-item">
 			<div class="module-thums-item">
-				<img src="http://placehold.it/170x130" alt="Game" class="thumb-module-item">
+				<img src="http://placehold.it/170x130" data-src="http://placehold.it/170x130" alt="Game" class="thumb-module-item lazyImg">
 			</div>
 			<div class="module-content-item">
 				<a href="?content=" class="module-item-link">Age of Conquest Asia</a>
@@ -25,7 +25,7 @@
 
 		<div class="module-item">
 			<div class="module-thums-item">
-				<img src="http://placehold.it/170x130" alt="Game" class="thumb-module-item">
+				<img src="http://placehold.it/170x130" data-src="http://placehold.it/170x130" alt="Game" class="thumb-module-item lazyImg">
 			</div>
 			<div class="module-content-item">
 				<a href="?content=" class="module-item-link">Age of Conquest Asia</a>
@@ -42,7 +42,7 @@
 
 		<div class="module-item">
 			<div class="module-thums-item">
-				<img src="http://placehold.it/170x130" alt="Game" class="thumb-module-item">
+				<img src="http://placehold.it/170x130" data-src="http://placehold.it/170x130" alt="Game" class="thumb-module-item lazyImg">
 			</div>
 			<div class="module-content-item">
 				<a href="?content=" class="module-item-link">Age of Conquest Asia</a>

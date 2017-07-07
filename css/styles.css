@@ -16,6 +16,7 @@ a, button {
   -moz-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+  cursor: pointer;
 }
 a:hover {
   text-decoration: none;
@@ -41,7 +42,6 @@ a:hover {
   -moz-transition: transform .3s ease-in-out;
   -o-transition: transform .3s ease-in-out;
   transition: transform .3s ease-in-out;
-  max-width: 100%;
   transform: scale(1.2);
 }
 .lazyImg.b-loaded {
@@ -65,6 +65,9 @@ footer i {
 }
 footer a {
   color: #f6a623;
+}
+.modal-body article {
+  padding: 10px;
 }
 /*Header*/
 header {
@@ -299,8 +302,8 @@ header {
   border-top: 0;
 }
 .modal-footer {
-   display: flex;
-   justify-content: center;
+ display: flex;
+ justify-content: center;
 }
 .modal-footer button {
   background-color: transparent;
@@ -396,6 +399,25 @@ header {
 .tittle-game h2 {
   margin-right: 10px;
 }
+.bx-wrapper{
+  margin-bottom: 10px !important;
+}
+#bx-pager {
+  display: flex;
+  justify-content: center;
+}
+#bx-pager a {
+  margin: 0 5px;
+}
+#bx-pager a img {
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+.mt20 {
+  margin-top: 20px;
+}
 @media (min-width: 1200px){
   .visible-lg {
     display: inline-block!important;
@@ -416,6 +438,9 @@ header {
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+  }
+  footer {
+    z-index: 0;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -451,5 +476,26 @@ header {
     width: 100%;
     height: 100px;
     background-image: url(../img/modal-header.jpg);
+    background-size: 100%;
   }
+  .tittle-game {
+    flex-direction: column;
+  }
+  #bx-pager a img {
+    width: 60px;
+    height: 60px;
+  }
+  footer {
+    z-index: 0;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2){
+  .sub-header {
+    background-image: url(../img/modal-header@2x.jpg);
+  }
+}
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px) { 
+
 }

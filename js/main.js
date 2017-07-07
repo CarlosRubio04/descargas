@@ -78,10 +78,7 @@ function fullScreen(){
 $(document).ready(function(){
   descargar();
   $('.bxslider').bxSlider({
-    minSlides: 1,
-    maxSlides: 4,
-    slideWidth: 370,
-    slideMargin: 15
+    pagerCustom: '#bx-pager'
   });
 });
 
